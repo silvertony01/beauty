@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Beauty Studio - Eleganza e Benessere</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+
+</head>
+<body>
+
+  <header>
+    <h1>Scopri la tua bellezza</h1>
+    <p>Trattamenti personalizzati per viso, capelli e corpo</p>
+    <button class="cta-btn" onclick="scrollToForm()">Prenota un appuntamento</button>
+  </header>
+
+  <section>
+    <h2>I nostri servizi</h2>
+    <div class="features">
+      <div class="feature">
+        <h3>Taglio & Styling</h3>
+        <p>Acconciature su misura per valorizzare il tuo stile unico.</p>
+      </div>
+      <div class="feature">
+        <h3>Trattamenti viso</h3>
+        <p>Pulizia profonda, anti-age e trattamenti specifici per ogni tipo di pelle.</p>
+      </div>
+      <div class="feature">
+        <h3>Manicure & Pedicure</h3>
+        <p>Un tocco di eleganza per mani e piedi sempre curati.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Recensioni</h2>
+    <div class="testimonials">
+      <div class="testimonial">
+        <p>"Ogni volta che esco mi sento rinata. Un servizio impeccabile!"</p>
+        <strong>- Giulia</strong>
+      </div>
+      <div class="testimonial">
+        <p>"Taglio perfetto e ambiente rilassante. Lo consiglio a tutte!"</p>
+        <strong>- Elena</strong>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contattaci</h2>
+    <form onsubmit="handleSubmit(event)">
+      <input type="text" placeholder="Nome" required />
+      <input type="email" placeholder="Email" required />
+      <textarea placeholder="Quale trattamento ti interessa?" required></textarea>
+      <button class="cta-btn" type="submit">Invia</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Beauty Studio | Realizzato da Anthony Web Dev</p>
+  </footer>
+
+  
+
+</body>
+</html>
